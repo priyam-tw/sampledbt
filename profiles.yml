@@ -1,0 +1,15 @@
+dbtsample:
+  outputs:
+    dev:
+      account: hwyunjk-ws12711
+      database: DBT_DOCKER
+      password: Dbtprod@123
+      role: accountadmin
+      schema: TARGET
+      threads: 2
+      type: snowflake
+      user: dbtprod
+      warehouse: COMPUTE_WH
+  target: dev
+
+  
